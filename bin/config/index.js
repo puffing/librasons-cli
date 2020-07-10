@@ -9,13 +9,6 @@ module.exports  = {
       message: '请选择拉取的模版类型:',
       name: 'type',
       choices: [{
-        name: 'mobile',
-        value: {
-          url: '',
-          gitName: 'vue-web-template',
-          val:'移动端模版'
-        }
-      },{
         name: 'pc',
         value: {
           url: 'https://github.com/puffing/vue-libra-cli-template.git',
