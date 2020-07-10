@@ -1,6 +1,13 @@
 # librasons-cli
-这是一个生成特定模板的脚手架
-用法:
-在项目的目录下:
+这是一个生成特定模板的前端脚手架命令工具
+如何安装
+```
 $ npm install librasons-cli -g
-librasons-cli init projectName
+```
+初始化命令
+librasons-cli init <projectName>
+
+版本号查看:
+```
+librasons-cli -v
+```
