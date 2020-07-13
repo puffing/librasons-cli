@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const chalk = require('chalk');
-const path = require('path');
+// const path = require('path');
 
 module.exports = function (dir,name) {
   let isExists = fs.existsSync(dir);

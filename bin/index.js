@@ -2,11 +2,11 @@
 
 const fs = require('fs');
 const path = require('path');
-const chalk = require('chalk');
-const commander = require('commander');
-const inquirer = require('inquirer');
+const chalk = require('chalk');//用于改变控制台console.log输入文字的颜色---关键工具1
+const commander = require('commander');//处理控制台命令--关键工具2
+const inquirer = require('inquirer');//用于控制台选择--关键工具3
 const checkDire = require('./utils/checkDire.js');
-const { exec } = require('child_process');
+const { exec } = require('child_process');//执行shell命令的工具--关键工具4
 const { version } = require('../package.json');
 const { promptTypeList } = require('./config');
 
